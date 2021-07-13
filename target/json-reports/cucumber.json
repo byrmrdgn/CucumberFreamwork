@@ -1,0 +1,68 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-10T12:12:18.629Z",
+        "line": 3,
+        "name": "amazonda arama",
+        "description": "",
+        "id": "amazon-arama;amazonda-arama",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3371064000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "kullanici \"https:amazon.com\" gider",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https:amazon.com\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.AA.kullanici_gider(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2166984900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "tablet arar",
+            "match": {
+              "location": "stepdefinitions.AA.tablet_arar()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deneme"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon arama",
+    "description": "",
+    "id": "amazon-arama",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/deneme.feature",
+    "tags": [
+      {
+        "name": "@deneme",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
